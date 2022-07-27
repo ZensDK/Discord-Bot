@@ -22,4 +22,4 @@ async def help(ctx):
     embed.set_author(name=f"Github.com/ZensDK", icon_url='')
     await ctx.channel.send(embed=embed)
 keep_alive.keep_alive() #If you're hosting replit.com 
-bot.run("Token")
+bot.run("Bot-token")
